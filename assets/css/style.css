@@ -63,7 +63,7 @@ body {
   background-color: rgba(255, 255, 255, 0.1);
   color: #f6f1d1;
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   margin-bottom: 0.5rem;
   padding: 1rem 3rem;
 }
@@ -101,6 +101,7 @@ body {
 }
 
 .task.done .content {
+  color: #46494c;
   text-decoration: line-through;
 }
 
